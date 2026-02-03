@@ -16,9 +16,10 @@ spec:
       project: expense 
   template: 
     metadata: 
-      app: frontend 
-      tier: web 
-      project: expense 
+      labels:
+        app: frontend 
+        tier: web 
+        project: expense 
     spec: 
       containers: 
       - name: frontend 
