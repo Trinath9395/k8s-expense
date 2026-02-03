@@ -22,7 +22,7 @@ spec:
         project: expense 
     spec: 
       containers: 
-        name: backend 
+      - name: backend 
         image: trinathr/backend:1.0.0 
       
 --- 
